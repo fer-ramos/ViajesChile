@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+      background-color: transparent;
+}
+
+.carousel {
+    position: relative;
+}
