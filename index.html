@@ -9,7 +9,11 @@
     <meta name="author" content="Fernanda Ramos">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/48f10405ec.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
     <title>Viajes Chile</title>
 
 </head>
@@ -17,29 +21,36 @@
 <body>
     <!--SECCION DE BARRA DE NAVEGACION-->
     <nav>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top trn">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Viajes Chile</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll navbar-top"
-                        style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                        </li>
-                    </ul>
+                <div>
+                    <img src="assets/img/logo.png" alt="Logo">
+                    <a class="navbar-brand" href="#">Viajes Chile</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="text-end">
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll navbar-top"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#quienesSomos">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -76,9 +87,9 @@
     <main>
         <!--SECCION UNO-->
         <section>
-            <div class="container">
+            <div id="descripcion" class="container gy-4">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div id="quienesSomos" class="col-12 text-center">
                         <h1>¿QUIÉNES SOMOS?</h1>
                         <hr>
                     </div>
@@ -110,15 +121,15 @@
                     <div class="col-md-4">
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta totam nesciunt excepturi
-                                illum? Repellat magni error quasi aspernatur deserunt voluptates repudiandae sint magnam
-                                explicabo deleniti sequi tempore voluptate quis ullam ut, esse nisi non? Praesentium
-                                numquam neque ipsum, molestias dolore tempore sint. Voluptates officia rem aut neque
-                                quasi qui dolore magnam cum ratione, ut iure praesentium necessitatibus! Facilis
-                                quisquam ea placeat provident consectetur vitae atque? Illum perspiciatis dolores
-                                veritatis saepe ipsa doloremque quisquam distinctio, sed molestiae itaque doloribus
-                                beatae asperiores, velit iste qui perferendis placeat earum exercitationem incidunt
-                                necessitatibus laudantium hic. Saepe est magnam quasi rem quae voluptate.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias rerum fuga et odio amet
+                                quidem non? Necessitatibus recusandae mollitia sunt provident. Repudiandae, quaerat
+                                architecto error placeat magni fugit enim nam rerum assumenda harum voluptatem
+                                perferendis sed dolores nostrum consequuntur, similique iusto ipsa impedit aspernatur
+                                iure, eum veritatis. Rerum cupiditate velit suscipit excepturi asperiores esse quisquam,
+                                fugit tenetur cumque provident corporis neque quia tempora voluptates, at dolore et.
+                                Esse quibusdam nobis necessitatibus impedit tempore animi aut maxime, saepe quae ratione
+                                vitae nihil aspernatur repellendus accusantium optio eius commodi dolor reiciendis culpa
+                                sapiente ipsam? Sit, incidunt illum voluptatem quae dolor dolore odit!
                         </div>
                         <div class="text-center bg-info" style="color: white;">
                             <i class="fa-solid fa-mountain"></i>
@@ -155,7 +166,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div id="destacados" class="col-12 text-center">
                         <h1>DESTACADOS</h1>
                         <hr>
                     </div>
@@ -164,11 +175,11 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="card">
-                            <img src="assets/img/card1.jpg" class="card-img-top" alt="Imagen Card 1">
+                            <img src="assets/img/card1.jpg" height="180rem" class="card-img-top" alt="Imagen Card 1">
                             <div class="card-body bg-info">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
-                                    deserunt voluptas neque, laboriosam atque explicabo laborum iure fugit deleniti.
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+                                    quos sit deleniti exercitationem quia explicabo non reprehenderit id.
                                 </p>
                             </div>
                         </div>
@@ -176,18 +187,19 @@
 
                     <div class="col-md-3">
                         <div class="card">
-                            <img src="assets/img/card2.jpg" class="card-img-top" alt="Imagen Card 2">
+                            <img src="assets/img/card2.jpg" height="180rem" class="card-img-top" alt="Imagen Card 2">
                             <div class="card-body bg-info">
                                 <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-                                    obcaecati optio illum quia ducimus tempore eligendi nulla maiores sit fugiat?</p>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Reprehenderit officia non quaerat iusto, vel repellat repellendus nostrum corporis
+                                    sed pariatur dolores rerum.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-3">
                         <div class="card">
-                            <img src="assets/img/card3.jpg" class="card-img-top" alt="Imagen Card 3">
+                            <img src="assets/img/card3.jpg" height="180rem" class="card-img-top" alt="Imagen Card 3">
                             <div class="card-body bg-info">
                                 <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
@@ -198,7 +210,7 @@
 
                     <div class="col-md-3">
                         <div class="card">
-                            <img src="assets/img/card4.jpg" class="card-img-top" alt="Imagen Card 4">
+                            <img src="assets/img/card4.jpg" height="180rem" class="card-img-top" alt="Imagen Card 4">
                             <div class="card-body bg-info">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -215,7 +227,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div id="contacto" class="col-12 text-center">
                         <h1>CONTACTO</h1>
                         <hr>
                     </div>
@@ -226,19 +238,21 @@
                         <form>
                             <div class="mb-3">
                                 <label for="inputNombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="inputNombre" aria-describedby="nombreHelp">
+                                <input type="text" class="form-control" id="inputNombre" aria-describedby="nombreHelp"
+                                    required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="inputAsunto" class="form-label">Asunto</label>
-                                <input type="text" class="form-control" id="inputAsunto">
+                                <input type="text" class="form-control" id="inputAsunto" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="textMensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" rows="4" type="text" id="textMensaje"></textarea>
+                                <textarea class="form-control" rows="4" type="text" id="textMensaje"
+                                    required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-info">Enviar</button>
+                            <button type="submit" class="btn btn-info" style="color: white;">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -248,13 +262,12 @@
 
     <!--SECCION DE FOOTER-->
     <footer>
-
-        <div class="row bg-info text-light">
+        <div id="textFooter" class="row bg-info text-light">
             <div class="col-md-6 text-center">
-                <p>VIAJES CHILE</p>
+                <h5>VIAJES CHILE</h5>
             </div>
 
-            <div id="redesSociales" class="col-md-6 text-center">
+            <div class="col-md-6 text-center">
                 <a href="https://github.com/">
                     <i class="fa-brands fa-github-square"></i>
                 </a>
@@ -269,7 +282,6 @@
                 </a>
             </div>
         </div>
-
     </footer>
 
 

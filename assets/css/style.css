@@ -1,11 +1,47 @@
+/*SELECTOR POR ETIQUETA*/
 html {
     scroll-behavior: smooth;
 }
 
-.navbar {
-      background-color: transparent;
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
-.carousel {
-    position: relative;
+section,
+footer {
+    padding-top: 2%;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+i {
+    font-size: 2rem;
+}
+
+/*SELECTOR POR CLASE*/
+.trn {
+    background: transparent !important;
+    z-index: 999;
+}
+
+/*SELECTOR POR ID*/
+#textFooter {
+    padding: 2%;
 }
