@@ -235,24 +235,27 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <form>
+                        <form id="formulario">
                             <div class="mb-3">
-                                <label for="inputNombre" class="form-label">Nombre</label>
+                                <label for="inputNombre" class="form-label" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" title="Ingrese nombre y apellido">Nombre</label>
                                 <input type="text" class="form-control" id="inputNombre" aria-describedby="nombreHelp"
                                     required>
                             </div>
 
                             <div class="mb-3">
-                                <label for="inputAsunto" class="form-label">Asunto</label>
+                                <label for="inputAsunto" class="form-label" data-bs-toggle="tooltip"
+                                data-bs-placement="right" title="Ingrese una descripcion breve">Asunto</label>
                                 <input type="text" class="form-control" id="inputAsunto" required>
                             </div>
 
                             <div class="mb-3">
-                                <label for="textMensaje" class="form-label">Mensaje</label>
+                                <label for="textMensaje" class="form-label" data-bs-toggle="tooltip"
+                                data-bs-placement="right" title="Ingrese una descripcion detallada">Mensaje</label>
                                 <textarea class="form-control" rows="4" type="text" id="textMensaje"
                                     required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-info" style="color: white;">Enviar</button>
+                            <button id="enviar" type="submit" class="btn btn-info" style="color: white;">Enviar</button>
                         </form>
                     </div>
                 </div>
